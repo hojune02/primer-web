@@ -3,20 +3,19 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primer-purple: #7F77DD;
+  --primer-purple-dark: #6860c8;
+  --primer-purple-light: #f0effe;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primer: var(--primer-purple);
+  --color-primer-dark: var(--primer-purple-dark);
+  --color-primer-light: var(--primer-purple-light);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
